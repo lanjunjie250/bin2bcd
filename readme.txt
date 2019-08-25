@@ -7,3 +7,5 @@ git GPL
 暂存区
 
 工作区
+
+git push origin master
