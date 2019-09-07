@@ -9,7 +9,7 @@
 all: rtl vvp gtk
 
 rtl:
-	iverilog tb/bin2bcd_tb.v -o output/bin2bcd_tb.vvp
+	iverilog tb/bin2bcd_tb.v verilog/bin2bcd.v verilog/timescale.v -o output/bin2bcd_tb.vvp
 
 vvp:
 	vvp output/bin2bcd_tb.vvp
