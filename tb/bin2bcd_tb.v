@@ -15,11 +15,11 @@ always #5 clk = ~clk;
 initial 
 begin
     clk = 0;
-    $display("simulate begin");
-    $dumpfile("output/bin2bcd_tb.vcd");
-    $dumpvars();
+    $display("====simulate begin====");
+    // $dumpfile("output/bin2bcd_tb.vcd");
+    // $dumpvars();
     repeat (100) @(posedge clk);
-    $display("simulate end");
+    $display("====simulate end====");
     $finish;
 end
 

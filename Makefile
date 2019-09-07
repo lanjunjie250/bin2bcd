@@ -14,8 +14,9 @@ rtl:
 vvp:
 	vvp output/bin2bcd_tb.vvp
 
+# 无法运行在 Windows10 WSL，由于WSL默认没有图像界面
 gtk:
-	gtkwave output/bin2bcd_tb.vcd
+# 	gtkwave output/bin2bcd_tb.vcd
 
 clean:
 	@rm -rf output/* 

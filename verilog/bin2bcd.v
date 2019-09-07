@@ -5,7 +5,10 @@
 ******************************/
 
 module bin2bcd(
-
+    rst_n,
+    clk,
+    start_en,
+    busy_o,
 
 );
 
